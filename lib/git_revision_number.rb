@@ -1,4 +1,4 @@
-require "#{RAILS_ROOT}/lib/git-rev-num/lib/git_rev_num"
+require File.expand_path(File.dirname(__FILE__) + "vendor/git-rev-num/lib/git_rev_num")
 
 module GitRevisionNumber
   class << self
