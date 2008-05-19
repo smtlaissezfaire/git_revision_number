@@ -1,3 +1,0 @@
-[submodule "lib/git_revision_number/vendor/git-rev-num"]
-	path = lib/git_revision_number/vendor/git-rev-num
-	url = git://github.com/smtlaissezfaire/git-rev-num.git
