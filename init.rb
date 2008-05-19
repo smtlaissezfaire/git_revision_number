@@ -1,2 +1,2 @@
 
-ApplicationHelper.send :include, GitRevisionNumber::ApplicationHelpers
+ActionView::Base.send :include, GitRevisionNumber::ApplicationHelpers
