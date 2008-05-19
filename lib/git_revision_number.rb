@@ -1,3 +1,5 @@
+require File.expand_path(File.dirname(__FILE__) + "/git_revision_number/vendor/git-rev-num/lib/git_rev_num")
+
 module GitRevisionNumber
   class << self
     def head
