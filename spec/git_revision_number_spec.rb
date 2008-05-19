@@ -3,8 +3,8 @@ require File.dirname(__FILE__) + "/spec_helper"
 describe GitRevisionNumber do
   describe "head" do
     before :each do
-      @librarian = mock(GitRevisionNumbers::CommitLibrarian)
-      GitRevisionNumbers::CommitLibrarian.stub!(:new).and_return @librarian
+      @librarian = mock(GitRevisionNumbers::MasterCommitLibrarian)
+      GitRevisionNumbers::MasterCommitLibrarian.stub!(:new).and_return @librarian
     end
     
     it 'should return the revision numbers' do

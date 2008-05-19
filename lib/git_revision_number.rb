@@ -9,7 +9,7 @@ module GitRevisionNumber
   private
   
     def librarian
-      @librarian = GitRevisionNumbers::CommitLibrarian.new
+      @librarian = GitRevisionNumbers::MasterCommitLibrarian.new
     end
   end
 end
